@@ -1,4 +1,4 @@
-cask "docker" do
+cask "docker@3.4.0,65384" do
   version "3.4.0,65384"
 
   if Hardware::CPU.intel?
